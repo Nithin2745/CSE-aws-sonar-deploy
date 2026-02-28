@@ -14,12 +14,12 @@ class CseControllerTest {
 		assertEquals(30, result);
 	}
 	@Test
-	void testHello() {
+	void testhello() {
 		String result = c.Hello("Nithin");
 		assertEquals("Hello Nithin", result);
 	}
 	@Test
-	void testHi() {
+	void testhi() {
 		String result = c.Hi();
 		assertEquals("Hi, My name is Nithin with roll:23MH1A05L8", result);
 	}
