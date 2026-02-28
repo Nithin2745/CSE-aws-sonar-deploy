@@ -6,16 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class CseController {
-	@GetMapping("/cseadd")
-	public int add(@RequestParam int a, @RequestParam int b) {
-		return a+b;
-	}
-	@GetMapping("/hello")
-	public String Hello(@RequestParam String name) {
-		return "Hello "+name;
-	}
 	@GetMapping("/hi")
-	public String Hi() {
-		return "Hi, My name is Nithin with roll:23MH1A05L8";
+	public String hi(@RequestParam int a, @RequestParam int b) {
+		return "Hi, My name is Nithin with roll:23MH1A05L8. The product of "+a+" and "+b+" is "+ (a*b);
 	}
 }

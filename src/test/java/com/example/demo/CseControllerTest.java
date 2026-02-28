@@ -10,18 +10,7 @@ class CseControllerTest {
 	CseController c;
 	@Test
 	void test() {
-		int result = c.add(10, 20);
-		assertEquals(30, result);
+		String result = c.hi(10, 20);
+		assertEquals("Hi, My name is Nithin with roll:23MH1A05L8. The product of 10 and 20 is 200", result);
 	}
-	@Test
-	void testhello() {
-		String result = c.Hello("Nithin");
-		assertEquals("Hello Nithin", result);
-	}
-	@Test
-	void testhi() {
-		String result = c.Hi();
-		assertEquals("Hi, My name is Nithin with roll:23MH1A05L8", result);
-	}
-
 }
