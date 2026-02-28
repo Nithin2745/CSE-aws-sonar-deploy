@@ -11,7 +11,7 @@ class CseControllerTest {
 	@Test
 	void test() {
 		int result = c.add(10, 20);
-		// assertEquals(30, result);
+		assertEquals(30, result);
 	}
 
 }
