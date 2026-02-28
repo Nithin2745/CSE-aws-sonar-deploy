@@ -10,11 +10,11 @@ public class CseController {
 	public int add(@RequestParam int a, @RequestParam int b) {
 		return a+b;
 	}
-	@GetMapping("/Hello")
+	@GetMapping("/hello")
 	public String Hello(@RequestParam String name) {
 		return "Hello "+name;
 	}
-	@GetMapping("/Hi")
+	@GetMapping("/hi")
 	public String Hi() {
 		return "Hi, My name is Nithin with roll:23MH1A05L8";
 	}
